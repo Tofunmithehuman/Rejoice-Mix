@@ -1,0 +1,14 @@
+.Home .heroContent, .About {
+    color: #000;
+}
+.Home .heroContent button {
+    border: 1px solid #000;
+    border-radius: 2px;
+    padding: 5px 15px;
+    background-color: #fff;
+}
+
+/* About */
+.Home .About {
+    margin-top: 150px;
+}

@@ -1,0 +1,19 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.Navigation {
+    padding-bottom: 270px;
+}
+.Navigation header {
+    background-color: #000000b9;
+    backdrop-filter: blur(5px);
+}
+.Navigation header nav ul li {
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+.Navigation header nav ul li:hover {
+    color: rgb(150, 150, 150);
+}
