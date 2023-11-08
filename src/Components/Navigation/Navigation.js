@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './Navigation.css';
+import Aos from "aos";
+import "aos/dist/aos.css"
+
+
 
 
 const Navigation = () => {
+
+    useEffect(()=> {
+        Aos.init({duration: 1200})
+    }, [])
+    
     return (
         <div className="Navigation">
-            <header className="d-flex justify-content-between align-items-center p-4 w-100 position-fixed">
+            <header data-aos="fade-down" className="d-flex justify-content-between align-items-center p-4 w-100 position-fixed">
                 <img src="" alt="RJ-MIX"about="RJ-MIX" />
 
                 <nav>

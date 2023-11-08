@@ -9,6 +9,33 @@
 }
 
 /* About */
-.Home .About {
+.About {
     margin-top: 150px;
+}
+.About .content {
+    padding-left: 80px; 
+}
+.About img {
+    max-width: 25%;
+}
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 1024px) {
+    /* About */
+    .About #parent {
+        display: flex;
+        flex-direction: column;
+    }
+    .About .content {
+        padding: 40px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+        /* Home */
+        .Home #parent p {
+            font-size: 13px;
+        }
 }

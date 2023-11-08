@@ -7,8 +7,9 @@
     padding-bottom: 270px;
 }
 .Navigation header {
-    background-color: #000000b9;
+    background-color: #00000098;
     backdrop-filter: blur(5px);
+    z-index: 1000;
 }
 .Navigation header nav ul li {
     transition: all 300ms ease;
