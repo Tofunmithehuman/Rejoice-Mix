@@ -12,7 +12,7 @@ function Contact() {
 
     return (
         <div className="Contact">
-            <div data-aos="fade-right" className="container">
+            <div data-aos="fade-up" className="container">
                 <div className="contain">
                     <h3>Contact me</h3><br />
                     <p>To get more information on my services and how i can help you work on your next musical project, please fill out this form. I will get back to you as soon as possible.</p><br /><br />
@@ -20,7 +20,7 @@ function Contact() {
                     <p>example@gmail.com</p>
                     <p>Twitter Instagram Facebook</p>
                 </div>
-                <form data-aos="fade-left">
+                <form>
                     <input type="text" placeholder="Full Name" required/><br /><br />
                     <input type="email" placeholder="Email" required/><br /><br />
                     <input type="number" placeholder="Phone" required/><br /><br />
