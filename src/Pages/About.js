@@ -5,7 +5,6 @@ import "aos/dist/aos.css"
 import img from '../Media/imgTwo.jpg';
 
 
-
 const About = () => {
 
     useEffect(() => {
@@ -14,9 +13,11 @@ const About = () => {
 
     return (
             <div className="About">
-                <div className="d-flex justify-content-between align-items-center gap-5" id="parent">
-                    <div data-aos="fade-up" className="content">
+                <div className="container">
+                <div className="d-flex justify-content-between align-items-center gap-5 " id="parent">
+                    <div data-aos="fade-up" className="content w-60">
                             <h1 className="w-60">About RJ-MIX</h1>
+                            <br />
                             <br />
                             <p className="w-60">
                                 Music is an art where creatiity can be limitless, 
@@ -37,6 +38,7 @@ const About = () => {
                     </div>
                     <img data-aos="fade-up" src={img} alt="Studio" about="Rejoice Moyosola Joseph" />
                 </div>
+            </div>
             </div>
     );
 }

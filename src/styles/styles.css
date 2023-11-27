@@ -1,16 +1,26 @@
-.Home .heroContent, .About {
-    color: #000;
+* {
+    color: #fff;
 }
+
+
+
 .Home .heroContent button {
-    border: 1px solid #000;
+    border: 1px solid #fff;
     border-radius: 2px;
     padding: 5px 15px;
-    background-color: #fff;
+    background-color: #00000000;
+}
+.Home .heroContent button a {
+    text-decoration: none;
+    color: #fff;
 }
 
 /* About */
 .About {
     margin-top: 150px;
+}
+.About #parent {
+    padding: 48px;
 }
 .About .content {
     padding-left: 80px; 
@@ -18,6 +28,58 @@
 .About img {
     max-width: 25%;
 }
+
+
+/* Servicces */
+.Services {
+    margin-top: 120px;
+}
+.Services .container {
+    gap: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    margin-top: 90px;
+}
+
+/* Contact */
+.Contact .container{
+    padding: 120px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 870px;
+    gap: 45px;
+}
+.Contact .container form input {
+    padding: 5px 15px;
+    border: none;
+    background-color: #00000000;
+    border-bottom: 1px solid #fff;
+    text-align: right;
+}
+.Contact .container form textarea {
+    padding: 5px 15px;
+    border: none;
+    background-color: #000;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    height: 100px;
+    text-align: right;
+}
+.Contact .container form button {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #ffffff42;
+    border-radius: 2px;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+
+
 
 
 /* Responsiveness */
@@ -31,6 +93,9 @@
     .About .content {
         padding: 40px; 
     }
+    .About img {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -38,4 +103,54 @@
         .Home #parent p {
             font-size: 13px;
         }
+        .About .content {
+            padding: 0;
+        }
+        .Services .container {
+            display: flex;
+            flex-direction: column;
+        }
+        .Contact .container{
+            padding: 120px 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: auto;
+        }
+        .Contact .container p {
+            font-size: 13px;
+        }
+        .Contact .container form {
+            width: 100%;
+        }
+        .Contact .container form input{
+            text-align: center;
+            width: 100%;
+        }
+        .Contact .container form textarea {
+            text-align: center;
+        }
+}
+
+@media screen and (max-width: 425px) {
+    .Home #parent h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .Home #parent h6 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .Home #parent {
+        padding: 30px;
+    }
+    .Home #parent #homey {
+        font-size: 10px;
+    }
+    .Home .heroContent button {
+        padding: 4px 13px;
+        font-size: 12px;
+    }
 }

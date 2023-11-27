@@ -1,0 +1,9 @@
+.Footer {
+    background-color: rgb(19, 19, 19);
+}
+.Footer h5 {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 10px;
+}
