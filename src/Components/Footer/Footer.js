@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
     return (
         <div className="Footer">
-            <h5>RJ-MIX 2024 @ Copyright - All Right Reserved.</h5>
+            <h5>RJ-MIX 2024 &copy; Copyright - All Right Reserved.</h5>
         </div>
     );
 }
