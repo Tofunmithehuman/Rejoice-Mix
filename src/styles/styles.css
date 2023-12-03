@@ -55,6 +55,7 @@
 .Contact .container form input {
     padding: 5px 15px;
     border: none;
+    border-radius: none;
     background-color: #00000000;
     border-bottom: 3px solid #fff;
     text-align: right;
@@ -62,6 +63,7 @@
 .Contact .container form textarea {
     padding: 5px 15px;
     border: none;
+    border-radius: none;
     background-color: #000;
     border-bottom: 3px solid #fff;
     width: 100%;
